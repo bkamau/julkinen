@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  adguard:
+  - apiVersion: v2
+    appVersion: v0.107.29
+    created: "2023-06-04T09:02:49.313593727Z"
+    description: Adguard Home DNS server
+    digest: 8908e5f737385b05845d239863e4d6a1600b385e965ab5736d2549f94028f422
+    name: adguard
+    type: application
+    urls:
+    - https://github.com/bkamau/julkinen/releases/download/adguard-0.107.29/adguard-0.107.29.tgz
+    version: 0.107.29
+  backup:
+  - apiVersion: v2
+    appVersion: 0.12.0
+    created: "2023-06-04T09:02:49.434253486Z"
+    description: Restic based backup and restore solution for persistent volume claims.
+    digest: 49fc2ea0b7e38881fb605c280da63925cc390cac164f3b6e1d6c65ac4929a683
+    name: backup
+    type: application
+    urls:
+    - https://github.com/bkamau/julkinen/releases/download/backup-1.0.2/backup-1.0.2.tgz
+    version: 1.0.2
+  docker-registry:
+  - apiVersion: v1
+    appVersion: 2.8.1
+    created: "2023-06-04T09:02:49.581495804Z"
+    description: A Helm chart for Docker Registry
+    digest: 2bb57940c3e394701f5211c73447d93315c5e25af9963232b8b8426ff86897ab
+    home: https://hub.docker.com/_/registry/
+    icon: https://helm.twun.io/docker-registry.png
+    name: docker-registry
+    urls:
+    - https://github.com/bkamau/julkinen/releases/download/docker-registry-2.2.5/docker-registry-2.2.5.tgz
+    version: 2.2.5
+generated: "2023-06-04T09:02:49.581504804Z"
